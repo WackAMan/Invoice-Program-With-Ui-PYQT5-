@@ -2,10 +2,6 @@ from reportlab.lib.pagesizes import A4
 from reportlab.pdfgen import canvas
 from datetime import date
 
-import fitz  # PyMuPDF
-
-print(date.today().strftime('%d-%m-%Y'))
-
 def create_invoice_pdf(filename,client_info,Invoice_number,rate,all_services):
     c = canvas.Canvas(filename, pagesize=A4)
     width, height = A4
@@ -94,4 +90,5 @@ def create_invoice_pdf(filename,client_info,Invoice_number,rate,all_services):
 
     # save file
     c.save()
+
 
