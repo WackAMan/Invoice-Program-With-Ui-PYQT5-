@@ -23,7 +23,7 @@ except Exception as e:
     print(e)
     input("Cheese")
 
-#modules pyqt5,reportlab, fitz
+#modules pyqt5,reportlab, fitz, email_validator
     #to do
 # - settings panel - edit own info, add more descriptions
 # - on invoice tab: if no personal data text file exists make a popup saying please fill in the text boxes on the admin tab
@@ -32,3 +32,4 @@ except Exception as e:
 # - automatically select smtp port for each email
 
 # - finally delete all clients and clinets in client lists and personal data text file and zip it and send it to parents to test on laptop
+
