@@ -3,4 +3,5 @@ A simple program i made for my mum to send invoices to her own clients, with bui
 
 this is also my first ever time using github so im not sure how it works therefore i disabled the actual emailing to prevent people randomly emailing people just incase
 
+you will need to run installation.py before running the main program
 run main.py to start it
