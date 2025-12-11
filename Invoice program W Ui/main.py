@@ -24,12 +24,3 @@ except Exception as e:
     input("Cheese")
 
 #modules pyqt5,reportlab, fitz, email_validator
-    #to do
-# - settings panel - edit own info, add more descriptions
-# - on invoice tab: if no personal data text file exists make a popup saying please fill in the text boxes on the admin tab
-# - edit all autofilling data with personal data by doing self.personal data and reading file at the start somewhere (invoices probably again)
-# - finish the search page & also put grey box behind it
-# - automatically select smtp port for each email
-
-# - finally delete all clients and clinets in client lists and personal data text file and zip it and send it to parents to test on laptop
-
