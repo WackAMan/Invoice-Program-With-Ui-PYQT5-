@@ -5,7 +5,7 @@ def connect_buttons_Invoice(self):
     self.ui.Delete_Day.clicked.connect(self.delete_day)
     self.ui.Preview.clicked.connect(self.invoice_make)
     self.ui.Client_Box.activated.connect(self.validate_client)
-    self.ui.Send.clicked.connect(self.send_invoice)
+    #self.ui.Send.clicked.connect(self.send_invoice)
 
 def connect_buttons_client(self):
     widgets_add = [self.ui.full_name_txt,self.ui.address_txt,self.ui.town_txt,
@@ -32,4 +32,5 @@ def connect_buttons_admin(self):
                         self.ui.user_sort_txt_edit,self.ui.user_accountnum_txt_edit,self.ui.user_email_txt_edit]
     for i in text_boxes:
         i.textChanged.connect(self.Validate_Text_Boxes)
+
     self.ui.update_user_btn.clicked.connect(self.create_personal_data_file)
